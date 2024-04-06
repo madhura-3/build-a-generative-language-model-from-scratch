@@ -59,9 +59,6 @@ class NaiveBayesClassifier:
 
 cl = NaiveBayesClassifier(post_comments_with_labels)
 
-show_expected_result = True
-show_hints = False
-
 def get_sentiment(text):
     cl = NaiveBayesClassifier(post_comments_with_labels)
     return cl.classify(text)
