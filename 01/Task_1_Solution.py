@@ -39,9 +39,7 @@ class MarkovChain:
             output += f" {current}"
     
         return output
-# This is how your code will be called.
-# Your answer should be the largest value in the numbers list.
-# You can edit this code to try different testing cases.
+
 text = """
 You're on the phone with your girlfriend
 She's upset, she's going off about something that you said
